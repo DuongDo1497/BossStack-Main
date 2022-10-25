@@ -38,6 +38,12 @@ const listTitlePage = [
     link: "https://bossstack.vn/recruitment-detail",
   },
   {
+    titlePage: "Blog BossStack",
+    description:
+      "Lý do các công ty chọn giải pháp công nghệ của BossStack trong quản lý tài chính và vận hành doanh nghiệp",
+    link: "https://bossstack.vn/blog",
+  },
+  {
     titlePage: "Khách hàng BossStack",
     description:
       "Lý do các công ty chọn giải pháp công nghệ của BossStack trong quản lý tài chính và vận hành doanh nghiệp",

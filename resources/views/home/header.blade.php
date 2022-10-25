@@ -46,16 +46,16 @@
         <li class="menu-item">
           <a href="#" class="menu-link">
             Resources
-            <img src="{{ asset('image/icon-down.svg') }}" alt="">
+            {{-- <img src="{{ asset('image/icon-down.svg') }}" alt=""> --}}
           </a>
-          <ul class="menu-child">
+          {{-- <ul class="menu-child">
             <li class="menu-child__item">
-              <a href="#" class="menu-child__link">Blog</a>
+              <a href="{{ route('blog') }}" class="menu-child__link">Blog</a>
             </li>
             <li class="menu-child__item d-none">
               <a href="{{ route('client') }}" class="menu-child__link">Khách hàng</a>
             </li>
-          </ul>
+          </ul> --}}
         </li>
 
         <li class="menu-item">

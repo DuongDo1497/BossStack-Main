@@ -41,6 +41,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
   <link rel="stylesheet" href="{{ asset('css/common.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/admin/main.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/admin/component.css') }}">
   {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
 
   @yield('head')
@@ -95,12 +96,13 @@
         </div>
       </section>
 
-      <section class="content-header">
+      {{-- <section class="content-header">
         <h1>
           <img src="{{ asset('image/circle-disc-blue-1.png') }}" alt="">
+          <span>{{ $title->sub_heading }}</span>
           {{ $title->heading }}
         </h1>
-      </section>
+      </section> --}}
 
       <section class="content">
         @yield('content')

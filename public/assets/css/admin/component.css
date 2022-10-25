@@ -1,0 +1,45 @@
+.admin-control{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-control .admin-heading{
+  display: flex;
+  align-items: center;
+  column-gap: .8rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.admin-control .admin-heading span{
+  font-weight: 700;
+}
+
+.admin-control .admin-button{
+  display: flex;
+  column-gap: 8px;
+}
+
+.admin-control .btn{
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  column-gap: 8px;
+  padding: 1.2rem 1.6rem;
+}
+
+.admin-control .btn.btn-exprort{
+  color: #828282;
+  background-color: #E7EAED;
+  border: 1px solid #BEBEBE;
+}
+
+.admin-control .btn.btn-add{
+  background-color: #2763C2;
+  border: 1px solid transparent;
+}

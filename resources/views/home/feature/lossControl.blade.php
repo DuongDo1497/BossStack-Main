@@ -14,19 +14,19 @@
             <h3 class="section-title text-center">Lợi ích của tính năng Kiểm soát thất thoát</h3>
 
             <div class="card-list">
-              <div class="card">
+              <div class="card" data-aos="fade-up" data-aos-duration="1000">
                 <img src="{{ asset('image/icon-bs-4.svg') }}" class="card-img-top">
                 <div class="card-body">
                   <h4 class="card-title">Tiết kiệm thời gian<br />quản lý</h4>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                 <img src="{{ asset('image/icon-bs-5.svg') }}" class="card-img-top">
                 <div class="card-body">
                   <h4 class="card-title">Kiểm soát thất thoát từ quản lý quy<br />trình vận hành</h4>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                 <img src="{{ asset('image/icon-bs-6.svg') }}" class="card-img-top">
                 <div class="card-body">
                   <h4 class="card-title">Quản lý nhân sự sản xuất, chấm<br />công tự động</h4>
@@ -41,7 +41,7 @@
         <div class="container">
           <div class="wrap">
             <div class="card-advertisement">
-              <div class="card-body">
+              <div class="card-body" data-aos="fade-right" data-aos-duration="1000">
                 <h3>Lý do doanh nghiệp cần Phần mềm Kiểm soát thất thoát</h3>
                 <p>Doanh nghiệp phải đối mặt với nhiều thách thức như:</p>
                 <ul class="advertisement-list">
@@ -69,7 +69,7 @@
                 <p>Vậy nên chủ doanh nghiệp cần một <span class="highlight">hệ thống để kiểm soát thất
                     thoát</span> để tiết kiệm thời gian quản lý.</p>
               </div>
-              <div class="card-image">
+              <div class="card-image" data-aos="fade-left" data-aos-duration="1000">
                 <img class="img-fluid" src="{{ asset('image/img-advertisement-1.png') }}"
                   alt="">
               </div>
@@ -83,7 +83,7 @@
         <div class="container">
           <div class="wrap">
             <div class="card-advertisement reverse">
-              <div class="card-body">
+              <div class="card-body" data-aos="fade-right" data-aos-duration="1000">
                 <h3>BossStack giúp doanh nghiệp thực thi dự án và kiểm soát thất thoát như thế nào ?
                 </h3>
                 <ul class="advertisement-list">
@@ -108,7 +108,7 @@
                     lý</span> thông qua công nghệ và kiểm soát thất thoát từ việc quản lí quy trình
                   vận hành.</p>
               </div>
-              <div class="card-image">
+              <div class="card-image" data-aos="fade-left" data-aos-duration="1000">
                 <img class="img-fluid" src="{{ asset('image/img-advertisement-2.png') }}"
                   alt="">
               </div>
@@ -125,19 +125,21 @@
             <div class="network-group">
               <h4 class="title">Chức năng dành cho người quản lý và chủ doanh nghiệp</h4>
               <div class="card-list">
-                <div class="card">
+                <div class="card" data-aos="fade-right" data-aos-duration="1000">
                   <img src="{{ asset('image/icon-bs-7.svg') }}" class="card-img-top">
                   <div class="card-body">
                     <h4 class="card-title">Quản lý chấm công</h4>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000"
+                  data-aos-delay="500">
                   <img src="{{ asset('image/icon-bs-8.svg') }}" class="card-img-top">
                   <div class="card-body">
                     <h4 class="card-title">Theo dõi tiến độ công việc<br />công việc</h4>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="1000"
+                  data-aos-delay="1000">
                   <img src="{{ asset('image/icon-bs-9.svg') }}" class="card-img-top">
                   <div class="card-body">
                     <h4 class="card-title">Kiểm soát dòng tiền</h4>
@@ -148,19 +150,21 @@
             <div class="network-group">
               <h4 class="title">Chức năng quản lý nhân viên ngoài hiện trường</h4>
               <div class="card-list">
-                <div class="card">
+                <div class="card" data-aos="fade-right" data-aos-duration="1000">
                   <img src="{{ asset('image/icon-bs-10.svg') }}" class="card-img-top">
                   <div class="card-body">
                     <h4 class="card-title">Thực hiện chấm công <br />từ xa</h4>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000"
+                  data-aos-delay="500">
                   <img src="{{ asset('image/icon-bs-11.svg') }}" class="card-img-top">
                   <div class="card-body">
                     <h4 class="card-title">Chụp ảnh, báo cáo tiến độ <br />theo thời gian thực</h4>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="1000"
+                  data-aos-delay="1000">
                   <img src="{{ asset('image/icon-bs-12.svg') }}" class="card-img-top">
                   <div class="card-body">
                     <h4 class="card-title">Đo lường khối lượng hàng <br />hoá - Kiểm soát thất thoát

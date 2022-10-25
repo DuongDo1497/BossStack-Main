@@ -41,7 +41,7 @@
         <h2>Resources</h2>
       </li>
       <li class="list-menu">
-        <a href="#" data-name="">
+        <a href="{{ route('blogs-index') }}" data-name="blogs-index">
           <img src="{{ asset('image/icon-ad-blog.svg') }}" alt="">
           Blog
         </a>

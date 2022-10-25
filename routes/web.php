@@ -20,6 +20,8 @@ Route::get('coaching', 'HomeController@coaching')->name('coaching');
 Route::get('decision-support', 'HomeController@decisionSupport')->name('decision-support');
 Route::get('recruitment', 'HomeController@recruitment')->name('recruitment');
 Route::get('recruitment-detail', 'HomeController@recruitmentDetail')->name('recruitment-detail');
+Route::get('blog', 'HomeController@blog')->name('blog');
+Route::get('blog-detail', 'HomeController@blogDetail')->name('blog-detail');
 Route::get('client', 'HomeController@client')->name('client');
 Route::get('client-detail', 'HomeController@clientDetail')->name('client-detail');
 Route::get('contact', 'HomeController@contact')->name('contact');

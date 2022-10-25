@@ -52,6 +52,16 @@ class HomeController extends Controller
         return $this->view('recruitmentDetail');
     }
 
+    public function blog()
+    {
+        return $this->view('blog');
+    }
+
+    public function blogDetail()
+    {
+        return $this->view('blogDetail');
+    }
+
     public function client()
     {
         return $this->view('client');

@@ -50,7 +50,7 @@
         <h4 class="footer-title">Resources</h4>
         <ul class="menu">
           <li class="menu-item">
-            <a href="#" class="menu-link">Blog</a>
+            <a href="{{ route('blog') }}" class="menu-link">Blog</a>
           </li>
 
           <li class="menu-item d-none">
