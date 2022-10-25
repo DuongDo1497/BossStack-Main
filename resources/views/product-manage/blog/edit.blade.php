@@ -8,10 +8,10 @@
 
 <div class="row">
     <div class="col-md-12">
-    THÔNG TIN KHÁCH HÀNG
+    CHỈNH SỬA
 
         <br>
-        <a href="{{ route('dashboard-manage') }}" style="width: 16%;"><i class="fa fa-arrow-left"></i> Quay lại</a>
+        <a href="{{ route('blogs-manage') }}" style="width: 16%;"><i class="fa fa-arrow-left"></i> Quay lại</a>
     </div>
        
 </div>

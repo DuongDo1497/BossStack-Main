@@ -8,10 +8,10 @@
 
 <div class="row">
     <div class="col-md-12">
-    THÔNG TIN KHÁCH HÀNG
+    THÊM MỚI
 
         <br>
-        <a href="{{ route('dashboard-manage') }}" style="width: 16%;"><i class="fa fa-arrow-left"></i> Quay lại</a>
+        <a href="{{ route('careers-manage') }}" style="width: 16%;"><i class="fa fa-arrow-left"></i> Quay lại</a>
     </div>
        
 </div>
@@ -19,5 +19,5 @@
 @endsection
 
 @section('scripts')
-@include('product-manage.blog.partials.script')
+@include('product-manage.career.partials.script')
 @endsection

@@ -168,32 +168,28 @@ Route::group(['namespace' => 'ProductManage', 'middleware' => ['auth','web','che
 
     });
 
-    // Hợp đồng
-    Route::group(['prefix' => 'contracts'], function (){
-        Route::get('/', 'ContractController@index')->name('contracts-index');
-        Route::get('/add', 'ContractController@add')->name('contracts-add');
-        Route::post('/store', 'ContractController@store')->name('contracts-store');
-        Route::get('/edit/{id}', 'ContractController@edit')->name('contracts-edit');
-        Route::put('/update/{id}', 'ContractController@update')->name('contracts-update');
-        Route::delete('/delete/{id}', 'ContractController@delete')->name('contracts-delete');
+    // Blog
+    Route::group(['prefix' => 'blogs'], function (){
+        Route::get('/', 'BlogController@index')->name('blogs-index');
+        Route::get('/manage', 'BlogController@manage')->name('blogs-manage');
+        Route::get('/add', 'BlogController@add')->name('blogs-add');
+        Route::post('/store', 'BlogController@store')->name('blogs-store');
+        Route::get('/edit/{id}', 'BlogController@edit')->name('blogs-edit');
+        Route::put('/update/{id}', 'BlogController@update')->name('blogs-update');
+        Route::delete('/delete/{id}', 'BlogController@delete')->name('blogs-delete');
+        Route::get('/detail/{id}', 'BlogController@detail')->name('blogs-detail');
+    });
 
-        Route::get('/listContract', 'ContractController@listContract')->name('contracts-listContract');
-        Route::get('/detailContract/{id}', 'ContractController@detailContract')->name('contracts-detailContract');
-        Route::get('/editContract/{id}', 'ContractController@editContract')->name('contracts-editContract');
-        Route::put('/updateContract/{id}', 'ContractController@updateContract')->name('contracts-updateContract');
-        Route::delete('/deleteContract/{id}', 'ContractController@deleteContract')->name('contracts-deleteContract');
-
-        Route::get('/listContractQueue', 'ContractController@listContractQueue')->name('contracts-listContractQueue');
-        Route::get('/listContractRunning', 'ContractController@listContractRunning')->name('contracts-listContractRunning');
-        Route::get('/listContractExpried', 'ContractController@listContractExpried')->name('contracts-listContractExpried');
-
-        Route::get('/addContract', 'ContractController@addContract')->name('contracts-addContract');
-        Route::post('/addProduct', 'ContractController@addProduct')->name('contracts-addProduct');
-        Route::post('/storeProduct', 'ContractController@storeProduct')->name('contracts-storeProduct');
-        Route::post('/processPaymentMomo', 'ContractController@processPaymentMomo')->name('contracts-processPaymentMomo');
-        Route::get('/resultPaymentMomo', 'ContractController@resultPaymentMomo')->name('contracts-resultPaymentMomo');
-        Route::get('/ipnPaymentMomo', 'ContractController@ipnPaymentMomo')->name('contracts-ipnPaymentMomo');
-
+    // Tuyen dung
+    Route::group(['prefix' => 'careers'], function (){
+        Route::get('/', 'CareerController@index')->name('careers-index');
+        Route::get('/manage', 'CareerController@manage')->name('careers-manage');
+        Route::get('/add', 'CareerController@add')->name('careers-add');
+        Route::post('/store', 'CareerController@store')->name('careers-store');
+        Route::get('/edit/{id}', 'CareerController@edit')->name('careers-edit');
+        Route::put('/update/{id}', 'CareerController@update')->name('careers-update');
+        Route::delete('/delete/{id}', 'CareerController@delete')->name('careers-delete');
+        Route::get('/detail/{id}', 'CareerController@detail')->name('careers-detail');
     });
 
 });
