@@ -42,6 +42,7 @@
   <link rel="stylesheet" href="{{ asset('css/common.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/admin/main.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/admin/component.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/admin/blog.css') }}">
   {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
 
   @yield('head')
@@ -111,7 +112,9 @@
       <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="">
     </div>
     <!-- /.content-wrapper -->
-    <footer class="main-footer" style="display: none;"></footer>
+    <footer class="main-footer">
+      <img src="{{ asset('image/footer-img.png') }}" alt="">
+    </footer>
   </div>
   <div class="loading-wrapper">
     <div class="loading">

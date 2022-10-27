@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2.4rem;
 }
 
 .admin-control .admin-heading{
@@ -23,6 +24,7 @@
 }
 
 .admin-control .btn{
+  width: auto;
   display: flex;
   align-items: center;
   font-size: 1.8rem;
@@ -33,13 +35,195 @@
   padding: 1.2rem 1.6rem;
 }
 
-.admin-control .btn.btn-exprort{
+.admin-control .btn.btn-exprort,
+.admin-control .btn.btn-cancel{
   color: #828282;
   background-color: #E7EAED;
   border: 1px solid #BEBEBE;
 }
 
-.admin-control .btn.btn-add{
-  background-color: #2763C2;
+.admin-control .btn.btn-add,
+.admin-control .btn.btn-save{
+  background-color: var(--primary-cl);
   border: 1px solid transparent;
+}
+
+.search-control{
+  padding: 3.2rem 4rem;
+  margin-bottom: 3.8rem;
+  border-radius: 5px;
+  background-color: var(--white-cl);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.search-control .search-wrap{
+  display: flex;
+  align-items: flex-end;
+  column-gap: 1.6rem;
+}
+
+.search-control .search-item{
+  --w-search-item: calc((100% - 14.6rem));
+  width: calc((var(--w-search-item) / 3) - 16px);
+}
+
+.search-control .search-item p{
+  color: var(--black-cl-1);
+  font-weight: 700;
+}
+
+.search-control .select2-container--default{
+  width: 100% !important;
+}
+
+.search-control .select2-container--default .select2-selection--single{
+  height: 4.7rem;
+  padding: 1.3rem 1.6rem;
+  border-radius: 5px;
+  border: 1px solid #D9D9D9;
+}
+
+.search-control .select2-container--default .select2-selection--single .select2-selection__rendered{
+  color: #828282;
+  line-height: 2.1rem;
+  margin-top: 0;
+}
+
+.search-control .select2-container--default .select2-selection--single .select2-selection__arrow{
+  height: 4.5rem;
+}
+
+.search-control .select2-container--default .select2-selection--single .select2-selection__arrow b{
+  margin-left: 0;
+  border-width: 5px 6px 0 6px;
+  border-color: var(--black-cl-1) transparent transparent transparent;
+  transform: translate(-50%, -50%);
+}
+
+.search-wrap .btn{
+  width: 14.6rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-weight: 500;
+  border-radius: 5px;
+  column-gap: 9px;
+}
+
+.search-wrap .btn.btn-filter{
+  background-color: var(--primary-cl);
+  border: 1px solid transparent;
+}
+
+.table-list table{
+  margin-bottom: 0;
+  background-color: var(--white-cl);
+}
+
+.table-list thead th{
+  font-size: 2rem;
+  line-height: 3rem;
+  padding: 1.4rem !important;
+  color: var(--white-cl);
+  text-align: center;
+  border-bottom: 0 !important;
+  background-color: var(--primary-cl);
+}
+
+.table-list tbody td{
+  padding: 1.3rem .5rem !important;
+  color: var(--black-cl-1);
+  text-align: center;
+  vertical-align: middle !important;
+  border-top: 0 !important;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.table-list tbody td.title{
+  text-align: left;
+}
+
+.table-list tbody td .avatar{
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 5px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.table-list tbody td .control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+}
+
+.alert{
+  width: 9.8rem;
+  padding: 6px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.alert.alert-success{
+  color: #0F5132 !important;
+  background-color: #D1E7DD !important;
+  border-color: #BADBCC;
+}
+
+.alert.alert-hide{
+  color: #141619 !important;
+  background-color: #D3D3D4 !important;
+  border-color: #BCBEBF;
+}
+
+.table-list .btn{
+  width: 4rem;
+  height: 4rem;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.btn-edit,
+.btn.btn-delete{
+  color: #828282;
+  background-color: #F3F3F3;
+  border-color: #BEBEBE;
+}
+
+.paginations{
+  display: flex;
+  justify-content: flex-end;
+  padding: 2.4rem 8.3rem 5rem;
+  background-color: var(--white-cl);
+}
+
+.paginations ul{
+  margin: 0;
+}
+
+.paginations ul li{
+  display: inline-block;
+}
+
+.paginations ul li a{
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+  padding: 8px 17px;
+  border-radius: 2px;
+  border: 1px solid #EEF4F9;
+  background-color: var(--white-cl);
+}
+
+.paginations ul li a.active{
+  color: var(--white-cl);
+  border: 1px solid transparent;
+  background-color: var(--primary-cl);
 }

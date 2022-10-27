@@ -1,0 +1,11 @@
+.blogs-list th:first-child{
+  width: 5.8rem;
+}
+
+.blogs-list th:nth-child(2){
+  width: 16rem;
+}
+
+.blogs-list th:nth-child(3){
+  width: 36.5rem;
+}

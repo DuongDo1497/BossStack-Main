@@ -240,3 +240,10 @@ h2{
   z-index: 1;
   transform: translateX(-50%);
 }
+
+.main-footer{
+  margin-left: 37.8rem;
+  border-top: 0;
+  padding: 0;
+  background: transparent;
+}
